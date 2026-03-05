@@ -1,0 +1,5 @@
+echo "quadtree_api/venv/" >> .gitignore
+echo "outputs/" >> .gitignore
+echo "__pycache__/" >> .gitignorequadtree_api/venv/
+outputs/
+__pycache__/
