@@ -37,7 +37,7 @@ if uploaded_file is not None:
                 data = {"threshold": threshold}
                 
                 # Hit our local API
-                response = requests.post("http://127.0.0.1:8000/api/v1/process/", files=files, data=data)
+                response = requests.post("https://quadtree-engine-api.onrender.com/api/v1/process/", files=files, data=data)
                 
                 if response.status_code == 200:
                     # Display the returned image!
